@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Basic Text Editor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/6b/f1/81/6bf1817d6b0d58153337086452d2e54f.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            Basic Text Editor
+        </div>
+        <div class="edit">
+            <button id="under"><img src="https://tse2.mm.bing.net/th?id=OIP.jVV8LNQ5fTU5yrPF6JnkMgHaCG&pid=Api&P=0&h=180" alt=""></button>
+            <button id="bold"><img src="https://tse4.mm.bing.net/th?id=OIP.G2qpmgxsXwhRFhhx3btO0gHaHa&pid=Api&P=0&h=180" alt=""></button>
+            <button id="ital"><img src="https://cdn4.iconfinder.com/data/icons/miscellaneous-44/24/italic-512.png" alt=""></button>
+            <button id="case">A/a</button>
+            <button id="cap">AB</button>
+            <button id="left"><img src="https://tse4.mm.bing.net/th?id=OIP.kkQ31VZcOUYhM-mW463bhwHaHa&pid=Api&P=0&h=180" alt=""></button>
+            <button id="center"><img src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Maps-Center-Direction-icon.png" alt=""></button>
+            <button id="right"><img src="https://tse1.mm.bing.net/th?id=OIP.MyDZd8Q-TDxY7IdTJ9eVrgHaHa&pid=Api&P=0&h=180" alt=""></button>
+            <button id="clr"><img src="https://tse3.mm.bing.net/th?id=OIP.pf0VJv9ulmrEtMeZNJhM3gHaDp&pid=Api&P=0&h=180" alt=""></button>
+            <button id="res"><img src="https://tse3.mm.bing.net/th?id=OIP.BbcPeqv9gMJy58xntck4ogHaHa&pid=Api&P=0&h=180" alt=""></button>
+        </div>
+        <div class="edit2">
+            <div class="d1">
+                <input type="number" min="0" id="size" value="16">
+                <select id="font">
+                    <option value="Arial" selected>Arial</option>
+                    <option value="Brush Script MT">Brush Script MT</option>
+                    <option value="Courier New">Courier New</option>
+                    <option value="Comic Sans MS">Comic Sans MS</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                </select>
+                Color&nbsp;<input type="color" id="color">
+            </div>
+            <div class="d2">
+                <input type="text" id="fn" placeholder="Enter file name">
+                <button id="down"><img src="img/download.png" alt=""></button>
+            </div>
+        </div>
+        <br>
+        <textarea id="ta" placeholder="Enter your text" autofocus></textarea>
+        <div class="foot">
+            Developed by <a href="https://www.linkedin.com/in/varsha-kumari-b27b3425a" target="_blank">Varsha kumari</a>
+        </div>
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>
